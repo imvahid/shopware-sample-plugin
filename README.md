@@ -17,7 +17,7 @@ sudo ./bin/build-storefront.sh
 --------------------------
 
 ### :book: Default credentials
-a href="https://docs.dockware.io/use-dockware/default-credentials" target="_blank">Use dockware</a>
+<a href="https://docs.dockware.io/use-dockware/default-credentials" target="_blank">Use dockware</a>
 
 --------------------------
 
