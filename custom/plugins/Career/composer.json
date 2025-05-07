@@ -1,0 +1,27 @@
+{
+    "name": "dadekavan/career-plugin",
+    "description": "Collaboration opportunities plugin",
+    "type": "shopware-platform-plugin",
+    "version": "0.0.1",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Dadekavan\\Career\\CareerPlugin",
+        "label": {
+            "de-DE": "Career plugin",
+            "en-GB": "Career plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Dadekavan\\Career\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dadekavan\\Career\\Tests\\": "tests/"
+        }
+    }
+}

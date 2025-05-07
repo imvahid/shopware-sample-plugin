@@ -1,0 +1,1 @@
+(()=>{"use strict";let{PluginBaseClass:e}=window;window.PluginManager.register("Career",class extends e{init(){window.addEventListener("scroll",this.onScroll.bind(this))}onScroll(){window.innerHeight+window.pageYOffset>=document.body.offsetHeight&&alert("Seems like there's nothing more to see here.")}})})();
