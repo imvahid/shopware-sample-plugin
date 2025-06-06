@@ -15,5 +15,12 @@
                 <argument type="service" id="twig"/>
             </call>
         </service>
+        <service id="Dadekavan\Career\Tasks\Scheduled\First">
+            <tag name="shopware.scheduled.task" />
+        </service>
+        <service id="Dadekavan\Career\Tasks\Scheduled\FirstHandler">
+            <argument type="service" id="scheduled_task.repository" />
+            <tag name="messenger.message_handler" />
+        </service>
     </services>
 </container>
